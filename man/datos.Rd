@@ -5,10 +5,10 @@
 \alias{datos}
 \title{Conjunto de datos de ejemplo}
 \format{
-los datos son generados de forma sintetica
+Los datos son generados de forma sintetica.
 \describe{
-\item {a}{muestra de datos}
-\item{b {muestra de datos multiplicada por cinco}
+\item{a}{muestra de datos}
+\item{b}{muestra de datos multiplicados por cinco}
 }
 }
 \source{
@@ -18,6 +18,6 @@ generacion propia con funciones de R
 datos
 }
 \description{
-Los datos son utilizados como ejemplo para nuestra función de suma.
+Los datos son utilizados como ejemplo de nuestra funcion de suma.
 }
 \keyword{datasets}

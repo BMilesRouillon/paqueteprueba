@@ -8,4 +8,5 @@
 #'  \item{b}{muestra de datos multiplicados por cinco}
 #' }
 #' @source generacion propia con funciones de R
+#' @export
 "datos"

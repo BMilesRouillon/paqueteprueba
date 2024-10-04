@@ -1,0 +1,26 @@
+---
+title: "vinieta_prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteprueba)
+```
+
+This vignette provides a detailed overview of the`suma()` function, which is designed to perform the addition of two numeric values.
+
+```{r}
+suma(1,8)
+```
+
