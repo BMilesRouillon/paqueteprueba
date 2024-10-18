@@ -12,8 +12,6 @@
 #'
 #' @examples
 #' suma(1,1)
-#' suma(-1,1)
-#' suma("1",1)
 #' suma(30,50)
 #'
 #'
@@ -23,7 +21,7 @@ suma <- function(x = 2, y = 2) {
   if (!is.numeric(x) | !is.numeric(y)) {
 
     cli::cli_abort(c(
-      "i" = "Los argumentos deben ser numéricos.",
+      "i" = "Los argumentos deben ser num\u00E9ricos.",
       "x" = "x es {class(x)}, y es {class(y)}"
     ))
   }

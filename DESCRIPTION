@@ -20,5 +20,5 @@ Suggests:
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Imports: 
-    dplyr
+    cli
 Config/testthat/edition: 3

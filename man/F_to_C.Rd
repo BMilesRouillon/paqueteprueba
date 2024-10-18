@@ -2,21 +2,22 @@
 % Please edit documentation in R/F_To_C.R
 \name{F_to_C}
 \alias{F_to_C}
-\title{Fahrenheit a celsius}
+\title{Fahrenheit a celsius
+Descripcion}
 \usage{
 F_to_C(temp_fahrenheit)
 }
 \arguments{
-\item{temp_fahrenheit}{}
+\item{temp_fahrenheit}{Temperatura en farenheit}
 }
 \value{
 La temperatura pasada a celsius
 }
 \description{
 Fahrenheit a celsius
+Descripcion
 }
 \examples{
 F_to_C(90)
-F_to_C("60")
 
 }

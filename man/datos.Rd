@@ -8,7 +8,7 @@
 Los datos son generados de forma sintetica.
 \describe{
 \item{a}{muestra de datos}
-\item{b}{muestra de datos multiplicados por cinco}
+\item{b}{muestra de datos multiplicada por cinco}
 }
 }
 \source{

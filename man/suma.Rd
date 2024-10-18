@@ -22,8 +22,6 @@ This are extra details of this function
 }
 \examples{
 suma(1,1)
-suma(-1,1)
-suma("1",1)
 suma(30,50)
 
 
