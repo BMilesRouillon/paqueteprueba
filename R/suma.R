@@ -18,14 +18,21 @@
 #'
 #'
 #' @export
-suma <- function(x, y) {
+suma <- function(x = 2, y = 2) {
+
   if (!is.numeric(x) | !is.numeric(y)) {
-    return("ERROR!, deben ser numéricos")
+
+    cli::cli_abort(c(
+      "i" = "Los argumentos deben ser numéricos.",
+      "x" = "x es {class(x)}, y es {class(y)}"
+    ))
   }
 
-  if (x < 0 | y < 0) {
-    return("ERROR! Sumo únicamente números positivos")
+  if (sign(x) < 0 | sign(y) < 0) {
+    cli::cli_abort(c(
+      "i" = "No puedo sumar negativos."
+    ))
   }
 
-  return(x + y)
+  x + y
 }

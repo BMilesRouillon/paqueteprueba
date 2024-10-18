@@ -5,8 +5,7 @@ Authors@R:
     person("Benjamin", "Miles Rouillon", , "benjaminmilesrouillon7@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package is not intended for installation; it's a toy package designed for learning how to develop R packages, so please do not install it.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
@@ -17,5 +16,9 @@ URL: https://github.com/BenjamilesAustral/paqueteprueba
 BugReports: https://github.com/BenjamilesAustral/paqueteprueba/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Imports: 
+    dplyr
+Config/testthat/edition: 3

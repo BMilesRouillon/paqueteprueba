@@ -4,7 +4,7 @@
 \alias{suma}
 \title{The sum of two numbers}
 \usage{
-suma(x, y)
+suma(x = 2, y = 2)
 }
 \arguments{
 \item{x}{It is a positive numeric value.}
